@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bQJGG"]); }
+
+__d("MVideoPlayerVisibilityBehavior",[],(function a(b,c,d,e,f,g){f.exports={IGNORE_VISIBILITY:"0",PAUSE_IF_MUTED:"1",PAUSE:"2"};}),null);

@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["tpfx3"]); }
+
+__d("MCheckpointRedirect",[],(function a(b,c,d,e,f,g){var h={redirect:function i(j){window.location=j;}};f.exports=h;}),null);
+__d('MLinkshim',['$','setTimeoutAcrossTransitions','AsyncSignal','Stratcom','MLegacyDataStore','LinkshimHandlerConfig'],(function a(b,c,d,e,f,g,h,i,j,k,l,m){var n='MLinkshim',o={onClick:function p(q){var r=q.getNode(n),s=l.get(r);o.click(r,s.dest_uri,s.logging_uri);},click:function p(q,r,s){var t=h('meta_referrer');t.content=m.switched_meta_referrer_policy;q.href=r;i(function(){t.content=m.default_meta_referrer_policy;new j(s,{}).send();},100);}};k.listen('click',n,o.onClick);f.exports=o;}),null);
